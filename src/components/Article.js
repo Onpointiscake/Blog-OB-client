@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Article() {
+export default function Article(props) {
     return (
         <div>
-            <h6>Like this one</h6>
+            <p>{props.titulo}</p>
         </div>
     )
 }
